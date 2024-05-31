@@ -1,10 +1,10 @@
-* {
-    scroll-behavior: smooth;
-}
-
-body {
+html {
+   scroll-behavior: smooth;
+ }
+ 
+ body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   background-color: #121212;
   color: #f0f0f0;
 }
@@ -56,16 +56,17 @@ nav a {
 }
 
 button {
+  border: 0.5px solid white;
   display: flex;
   padding: 10px 20px;
-  border: none;
-  background-color: #007acc;
+  background-color: transparent;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #005a99;
+  background-color: white;
+  color:  #606060;
 }
 
 section {
@@ -77,6 +78,22 @@ h2 {
   font-size: 36px;
   margin-bottom: 40px;
 }
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about {
+  text-align: center;
+  max-width: 400px;
+}
+
+.self-potrait {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .portfolio-grid {
   display: flex;
