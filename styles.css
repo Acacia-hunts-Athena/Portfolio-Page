@@ -1,88 +1,115 @@
-html {
+* {
     scroll-behavior: smooth;
-  }
-
+}
 
 body {
-    background-color: #1c1c1e;
-    color: #f5f5f7;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
 }
 
 header {
-    background-color: #000000;
-    padding: 2px;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1f1f1f;
 }
 
-header h1 {
-    margin: 0;
-    color: #f5f5f7;
+.logo {
+  font-size: 24px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
 }
 
-nav ul li a {
-    color: #f5f5f7;
-    text-decoration: none;
+.hero {
+  text-align: center;
+  padding: 200px 20px;
+  /*background: linear-gradient(to bottom right, #333, #000);*/
+  background-image: url("https://github.com/Acacia-hunts-Athena/Portfolio-Page/blob/Image-'Folder'/Huiyan%20Aries.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+button {
+  display: flex;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005a99;
 }
 
 section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+  padding: 60px 20px;
 }
 
-#about {
+h2 {
   text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
-#portfolio h2 {
-  text-align: center;
+.portfolio-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.services-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.art-piece {
-    background-color: #2c2c2e;
-    border: 1px solid #3a3a3c;
-    padding: 20px;
-    width: calc(33.333% - 40px);
-    text-align: center;
-    color: #f5f5f7;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
 }
 
-#contact  {
-  background-color: #38383A;
-
-}
-
-a {
-  text-decoration: none;
-
-}
-
-#contact a {
-  color: #E3E3E3;
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #333;
+  background-color: #1f1f1f;
+  color: #f0f0f0;
 }
 
 footer {
-    background-color: #000000;
-    color: #f5f5f7;
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
 }
+
