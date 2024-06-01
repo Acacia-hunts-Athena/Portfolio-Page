@@ -165,7 +165,10 @@ border: 1px solid var(--quaternary-color);
 background-color: var(--quinary-color);
 color: var(--secondary-color);
 }
-
+/*change to a color easy on the eyes (not white!)*/
+form input:focus, form textarea:focus {
+  outline: none;
+}
 footer {
 text-align: center;
 padding: 20px;
