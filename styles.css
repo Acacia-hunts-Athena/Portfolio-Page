@@ -1,177 +1,188 @@
 :root {
-    --primary-color:#181818 ;
-    --secondary-color:#f0f0f0 ;
-    --tertiary-color:#C34343 ;
-    --quaternary-color: #333;
-    --quinary-color: #1f1f1f;
-}
-
-html {
-scroll-behavior: smooth;
-}
-
-body {
-margin: 0;
-font-family: Verdana, Arial, sans-serif;
-background-color: #181818;
-color: var(--secondary-color);
+            --primary-color:#181818 ;
+            --secondary-color:#f0f0f0 ;
+            --tertiary-color:#C34343 ;
+            --quaternary-color: #333;
+            --quinary-color: #1f1f1f;
+        }
+ 
+ html {
+   scroll-behavior: smooth;
+ }
+ 
+ body {
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #181818;
+  color: var(--secondary-color);
 }
 
 header {
-display: flex;
-justify-content: space-between;
-padding: 20px;
-background-color: var(--quinary-color);
-font-size: 0.8rem;
-font-family: Raleway;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 20px;
+  background-color: var(--quinary-color);
+  font-size: 1rem;
+  font-family: Raleway;
 }
 
 .logo {
-font-size: 24px;
+  font-size: 24px;
+}
+
+.site-logo {
+  display: flex;
+  justify-content: center;
+    margin-top: 0;
+    max-width: 100%;
+    width: 120px;
+    height: auto;
 }
 
 nav ul {
-list-style: none;
-display: flex;
-gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /*have gap size change dynamically depending on max-width of device!*/
 }
 
 nav a {
-color: var(--secondary-color);
-text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .hero {
-text-align: center;
-padding: 200px 20px;
-/*background: linear-gradient(to bottom right, #333, #000);*/
-background-image: url("https://github.com/Acacia-hunts-Athena/Portfolio-Page/blob/Image-'Folder'/Huiyan%20Aries.jpg?raw=true");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: top;
+  text-align: center;
+  padding: 200px 20px;
+  /*background: linear-gradient(to bottom right, #333, #000);*/
+  background-image: url("https://github.com/Acacia-hunts-Athena/Portfolio-Page/blob/Image-'Folder'/Huiyan%20Aries.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .hero h1 {
-display: flex;
-justify-content: flex-start;
-font-size: 48px;
-margin: 0;
-font-family: Nanum Gothic ,Raleway, verdana, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 48px;
+  margin: 0;
+  font-family: Nanum Gothic ,Raleway, verdana, sans-serif;
 }
 
 .hero p {
-display: flex;
-justify-content: flex-start;
-font-size: 24px;
-margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  margin: 10px 0;
 }
 
 #designer {
-color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
 button {
-border: 0.5px solid var(--secondary-color);
-display: flex;
-padding: 10px 20px;
-background-color: transparent;
-color: var(--secondary-color);
-cursor: pointer;
-border-radius: 2px;
+  border: 0.5px solid var(--secondary-color);
+  display: flex;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  cursor: pointer;
+  border-radius: 2px;
 }
 
 button:hover {
-background-color: var(--secondary-color);
-/*color:  #606060; lighter version, harder to read, less accesibility buttt looks better imo*/
-color: var(--quaternary-color);
-border-radius: 5px;
-transition: 0.5s;
+  background-color: var(--secondary-color);
+  /*color:  #606060; lighter version, harder to read, less accesibility buttt looks better imo*/
+  color: var(--quaternary-color);
+  border-radius: 5px;
+  transition: 0.5s;
 }
 
 section {
-padding: 60px 20px;
+  padding: 60px 20px;
 }
 
 h2 {
-text-align: center;
-font-size: 36px;
-margin-bottom: 40px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
 #about {
-display: flex;
-justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .about {
-text-align: center;
-max-width: 400px;
-font-family: Raleway;
+  text-align: center;
+  max-width: 400px;
+  font-family: Raleway;
 }
 
 .social-icons {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .social-icons a {
-margin: 0 10px;
-color: var(--secondary-color);
-font-size: 24px;
-text-decoration: none;
+  margin: 0 10px;
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-decoration: none;
 }
 
 .social-icons a:hover {
-color: var(--quaternary-color);
-transition: 0.3s;
+  color: var(--quaternary-color);
+  transition: 0.3s;
 }
 
 .self-potrait {
-display: flex;
-justify-content: flex-end;
-border-radius: 5px;
-border: 1px solid var(--quinary-color);
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+  border: 1px solid var(--quinary-color);
 }
 
 .self-potrait img {
-border-radius: 5px;
+  border-radius: 5px;
 }
 
 
 .portfolio-grid {
-display: flex;
-gap: 20px;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .services-list {
-display: flex;
-gap: 20px;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 form {
-display: flex;
-flex-direction: column;
-gap: 10px;
-max-width: 400px;
-margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
 }
 
 form input, form textarea {
-padding: 10px;
-border: 1px solid var(--quaternary-color);
-background-color: var(--quinary-color);
-color: var(--secondary-color);
+  padding: 10px;
+  border: 1px solid var(--quaternary-color);
+  background-color: var(--quinary-color);
+  color: var(--secondary-color);
 }
 /*change to a color easy on the eyes (not white!)*/
 form input:focus, form textarea:focus {
   outline: none;
 }
-footer {
-text-align: center;
-padding: 20px;
-background-color: var(--quinary-color);
-}
 
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--quinary-color);
+}
