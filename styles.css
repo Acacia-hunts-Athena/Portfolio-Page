@@ -1,16 +1,16 @@
 :root {
-            --primary-color:#181818 ;
-            --secondary-color:#f0f0f0 ;
-            --tertiary-color:#C34343 ;
-            --quaternary-color: #333;
-            --quinary-color: #1f1f1f;
-        }
- 
- html {
-   scroll-behavior: smooth;
- }
- 
- body {
+  --primary-color: #181818;
+  --secondary-color: #f0f0f0;
+  --tertiary-color: #C34343;
+  --quaternary-color: #333;
+  --quinary-color: #1f1f1f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   margin: 0;
   font-family: Verdana, Arial, sans-serif;
   background-color: #181818;
@@ -34,10 +34,10 @@ header {
 .site-logo {
   display: flex;
   justify-content: center;
-    margin-top: 0;
-    max-width: 100%;
-    width: 120px;
-    height: auto;
+  margin-top: 0;
+  max-width: 100%;
+  width: 120px;
+  height: auto;
 }
 
 nav ul {
@@ -67,7 +67,7 @@ nav a {
   justify-content: flex-start;
   font-size: 48px;
   margin: 0;
-  font-family: Nanum Gothic ,Raleway, verdana, sans-serif;
+  font-family: Nanum Gothic, Raleway, verdana, sans-serif;
 }
 
 .hero p {
@@ -124,6 +124,15 @@ h2 {
   margin-top: 20px;
 }
 
+#cara {
+  height: auto;
+  max-width: 60px;
+}
+
+#cara:hover {
+  color: var(--quaternary-color);
+}
+
 .social-icons a {
   margin: 0 10px;
   color: var(--secondary-color);
@@ -170,14 +179,17 @@ form {
   margin: auto;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   padding: 10px;
   border: 1px solid var(--quaternary-color);
   background-color: var(--quinary-color);
   color: var(--secondary-color);
 }
+
 /*change to a color easy on the eyes (not white!)*/
-form input:focus, form textarea:focus {
+form input:focus,
+form textarea:focus {
   outline: none;
 }
 
